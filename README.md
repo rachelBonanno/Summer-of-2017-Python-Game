@@ -26,7 +26,7 @@ gameDisplay = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 
 def text_objects(text, font, color):
 	textSurface = font.render(text, True, color)
-	return textSurface, textSurface.get_rec()
+	return textSurface, textSurface.get_rect()
 
 
 def switch_fun(text):
